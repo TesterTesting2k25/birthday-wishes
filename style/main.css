@@ -5,13 +5,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: rgb(253, 192, 255);
-  color: white;
-  /* text-shadow:
-        -1px -1px 0 black,
-         1px -1px 0 black,
-        -1px  1px 0 black,
-         1px  1px 0 black; */
+  background-color: #fffaf0;
+  color: #8b008b;
 }
 
 .song {
@@ -63,7 +58,7 @@ body {
 }
 
 .four .text-box {
-  border: 3px solid #aaa;
+  border: 5px dashed #ff69b4;
   border-radius: 5px;
   margin: 0 auto;
   padding: 10px;
@@ -131,10 +126,10 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  left: 60%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -45%;
   width: 80px;
 }
 
@@ -257,7 +252,7 @@ body {
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 49%;
   }
 }
 
